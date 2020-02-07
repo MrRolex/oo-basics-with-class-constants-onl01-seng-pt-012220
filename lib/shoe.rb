@@ -14,7 +14,7 @@ class Shoe
   end
   
   def brand
-    brand << "uggs"
+    brand.new << "uggs"
   end
   
   def brands=(brand)
