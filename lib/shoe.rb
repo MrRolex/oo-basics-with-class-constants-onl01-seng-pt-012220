@@ -13,14 +13,11 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def brand
-    brand.new << "Uggs"
-  end
-  
   def brands=(brand)
     @brand = brand
     brand.include?
     @brand.size
+    
     brand << brands
  end
  
