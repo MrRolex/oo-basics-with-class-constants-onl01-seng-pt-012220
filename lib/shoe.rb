@@ -19,6 +19,9 @@ class Shoe
     @brand.size
     brand.new << "Uggs"
     brand << brands
+    
+    
+    
  end
  
 end
