@@ -17,7 +17,7 @@ class Shoe
     @brand = brand
     brand.include?
     @brand.size
-    
+    brand.new << "Uggs"
     brand << brands
  end
  
