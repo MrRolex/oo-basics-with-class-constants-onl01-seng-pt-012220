@@ -20,7 +20,12 @@ class Shoe
     brand.new << "Uggs"
     brand << brands
     
-    
+    def initialize(brand)
+    @brand = brand
+    if !(BRANDS.include?(@brand))
+      BRANDS << @brand
+    end
+  end
     
  end
  
